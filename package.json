@@ -1,0 +1,31 @@
+{
+  "name": "anomaly-detection-backend",
+  "version": "1.0.0",
+  "description": "Anomaly detection project REST API Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franklin-X-Ray-Archives/anomaly-detection-backend.git"
+  },
+  "keywords": [
+    "node",
+    "machine",
+    "learning"
+  ],
+  "author": "s5po@gmx.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franklin-X-Ray-Archives/anomaly-detection-backend/issues"
+  },
+  "homepage": "https://github.com/Franklin-X-Ray-Archives/anomaly-detection-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1132.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.3"
+  }
+}
